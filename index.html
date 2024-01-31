@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Calculater </title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
+
+
+</head>
+
+<body>
+  <div class="container"><br>
+    <div id=" input-container">
+      <input type="text" id="result">
+    </div>
+    <div class="buttonss">
+
+      <br>
+
+      <div class="row 1">
+        <button value="(" onclick="appendToDisplay(this.value)"> ( </button>
+        <button value=")" onclick="appendToDisplay(this.value)"> ) </button>
+        <button onclick="del()"> Del</button>
+        <button onclick="restartProgram()">AC</button>
+      </div>
+      <div class="row 1">
+        <button value="1" onclick="appendToDisplay(1)">1</button>
+        <button value="2" onclick="appendToDisplay(2)">2</button>
+        <button value="3" onclick="appendToDisplay(3)">3</button>
+        <button value="×" onclick="appendToDisplay(this.value)">×</button>
+      </div>
+      <div class="row 1">
+        <button value="4" onclick="appendToDisplay(4)">4</button>
+        <button value="5" onclick="appendToDisplay(5)">5</button>
+        <button value="6" onclick="appendToDisplay(6)">6</button>
+        <button value="-" onclick="appendToDisplay('-')">-</button>
+      </div>
+      <div class="row 1">
+        <button value="7" onclick="appendToDisplay(7)">7</button>
+        <button value="8" onclick="appendToDisplay(8)">8</button>
+        <button value="9" onclick="appendToDisplay(9)">9</button>
+        <button value="+" onclick="appendToDisplay('+')">+</button>
+      </div>
+
+      <div class="row 1"> <button value="/" onclick="appendToDisplay('/')">/</button>
+
+        <button value="0" onclick="appendToDisplay(this.value)">0</button>
+        <button value="." onclick="appendToDisplay(this.value)">.</button>
+        <button value="ln(" onclick="appendToDisplay(this.value)">ln(</button>
+      </div>
+
+
+      <div class="row 1">
+        <button value="√(" onclick="appendToDisplay(this.value) ">√</button>
+        <button value="&#178" onclick="appendToDisplay(this.value)">x&#178;</button>
+        <button value="%" onclick="appendToDisplay(this.value)">%</button>
+        <button onclick="calculate()">=</button>
+      </div>
+      <br>
+    </div>
+  </div>
+  </div>
+
+
+</body>
+
+</html>
