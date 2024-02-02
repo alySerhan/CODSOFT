@@ -1,0 +1,174 @@
+body {
+    background-color: #f8e8d9;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5.5rem;
+    color: rgb(255, 80, 6);
+    font-weight: bold;
+}
+
+
+
+
+fieldset {
+    border: #f8e8d900;
+    background-color: #f5ac6c86;
+    width: 7rem;
+    height: 13rem;
+    margin: auto;
+    padding: auto;
+    transition: 0.5s;}
+   
+
+    fieldset h3 {
+        font: size 2.5rem;
+        color: #000;
+        font-weight: bold;
+    }
+
+    fieldset p {
+        font-size: 1rem;
+        font-weight: bold;
+        color: rgba(255, 0, 0, 0);
+    }
+
+    
+
+img {
+        width:7rem;
+       
+    }
+
+.row1 
+fieldset:hover {
+     border: #f8e8d900;
+    background-color: #f5ac6c86;
+    width: 7rem;
+   height: 16rem;
+    margin: auto;
+    padding: auto;
+    transition: 0.5s;}
+
+fieldset:hover {
+     border: #f8e8d900;
+    background-color: #f5ac6c86;
+    width: 7rem;
+    height: 20rem;
+    margin: auto;
+    padding: auto;
+    transition: 0.5s;}
+
+    fieldset:hover h3 {
+        font: size 3rem;
+        color: #000;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    fieldset:hover  p{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+
+    fieldset:hover img{
+    width: 95%;
+}
+   
+
+
+
+
+
+
+button {
+    color: #ff4d00;
+    border-radius: 2rem;
+    background-color: #f8c595;
+    border: #f8e8d900;
+    margin: 1rem;
+    width: 7rem;
+    height: 3rem;
+    font-size: 1.4rem;
+}
+
+button:hover {
+    color: #000000;
+    text-decoration: none;
+    border-radius: 2rem;
+    background-color: #ffffff;
+    border: #f8e8d900;
+    margin: 1rem;
+    width: 7rem;
+    height: 3rem;
+    font-size: 1.4rem;
+
+}
+
+header {
+    display: flex;
+}
+
+#button1 {
+    margin-left: 3rem;
+
+    text-align: start;
+    flex: 1;
+}
+
+#button2 {
+    margin-right: 3rem;
+
+    text-align: end;
+    flex: 1;
+
+}
+
+.tbl {
+    width: 100%;
+    
+}
+
+.container {
+    width: 100%;
+}
+
+
+.row{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.row1{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+
+}
+@media only screen and (max-width: 400px) {
+    .row{
+       flex-direction: column;
+        margin: 0;
+        padding: 0;
+    
+    
+    }
+    
+    .row1{
+      flex-direction: column;
+        margin: 0;
+        padding: 0;
+    
+    
+    }
+  }

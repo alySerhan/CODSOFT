@@ -1,0 +1,230 @@
+body {
+    background-color: #f8e8d9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.hdr {
+    display: flex;
+}
+
+.hdr hr {
+    background-color: orange;
+    border: orange;
+    height: 0.0625em;
+}
+
+.hdr header {
+    position: sticky;
+    width: 100%;
+}
+
+
+
+.hdr a {
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+.hdr a:hover {
+    color: orange;
+    text-decoration: none;
+    text-decoration-color: #000000;
+}
+
+.hdr li {
+    list-style: none;
+    margin-left: 3%;
+
+}
+
+.hdr ul {
+    text-align: center;
+    display: flex;
+
+}
+
+
+
+
+
+
+    .ord legend {
+        font-size: 2rem;
+
+    }
+
+    .ord h2 {
+        color: #030201;
+        font-size: 3rem;
+        font-weight: bolder;
+        text-align: center;
+
+    }
+
+    .ord  p {
+        font-size: 1.5625rem;
+        text-align: left;
+        padding-left: 18rem;
+
+    }
+
+    .ord  input {
+        color: rgba(0, 0, 0, 0.443);
+        background-color: #f8e8d9;
+        border-style: none;
+        height: 2rem;
+        font-size: 120%;
+
+
+    }
+
+    .ord  input:hover {
+        color: #000;
+    }
+
+
+    .ord #or {
+        text-align: center;
+    }
+
+    .ord  table {
+        width: 100%;
+    }
+
+    .ord fieldset {
+        margin-bottom: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 2.1875rem;
+        background-color: #ffffff;
+        border: #f18724;
+        border-style: double;
+    }
+
+
+
+
+
+    .ord2 legend {
+        font-size: 2rem;
+
+    }
+
+    .ord2 h2 {
+        color: #030201;
+        font-size: 3rem;
+        font-weight: bolder;
+        text-align: center;
+
+    }
+
+    .ord2 p {
+        font-size: 1.5625rem;
+        text-align: left;
+        padding-left: 18rem;
+
+    }
+
+    .ord2  table {
+        border-style: groove;
+        border: #e6760e;
+        width: 100%;
+    }
+
+    .ord2  td {
+        padding-bottom: 1rem;
+        width: 25%;
+    }
+
+  
+
+    .ord2 tr:hover {
+        background-color: #f1872478;
+    }
+
+    .ord2  fieldset {
+        margin-bottom: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 2.1875rem;
+        background-color: #ffffff;
+        border: #f18724;
+        border-style: double;
+    }
+
+    .ord2 label {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+
+
+.ord3{ 
+text-align: center;
+}
+.ord3 h2 {
+        color: #030201;
+        font-size: 3rem;
+        font-weight: bolder;
+        text-align: center;
+
+    }
+
+    .ord3   p {
+        font-size: 1.5625rem;
+        text-align: left;
+        padding-left: 18rem;
+
+    }
+    .ord3 label {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .ord3 fieldset {
+        margin-bottom: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 2.1875rem;
+        background-color: #ffffff;
+        border: #f18724;
+        border-style: double;
+    }
+    .ord3  legend {
+        font-size: 2rem;
+
+    }
+
+    .ord3 button {
+    text-align: center;
+    border-radius: 1.5625rem;
+    border-style: double;
+    font-size: 120%;
+    font-weight: bold;
+    background-color: #e6760e;
+    color: rgb(255, 255, 255);
+    border: #000;
+    box-shadow: #e6760e;
+    width: 40%;
+    padding: 3%;
+}
+
+.ord3 button:hover {
+    color: #000;
+    background-color: #ff0000;
+    border: #f8e8d9;
+
+}
+
