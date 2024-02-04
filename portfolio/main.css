@@ -1,0 +1,747 @@
+body {
+    width: 100%;
+    background-color: #24211d;
+    text-align: center;
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+/* ============================  First page ===========================*/
+nav {
+
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.hr1 {
+    width: 100%;
+    height: 100%;
+}
+
+nav hr {
+    border: #e75e08;
+    border-style: groove;
+    width: 75%;
+    padding: 0;
+    margin: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    transition: 0.4s;
+    margin: auto;
+    padding: auto;
+}
+
+nav a:hover {
+    color: orangered;
+}
+
+.section_1 {
+    width: 100%;
+    background-color: #120f0d;
+}
+
+.logo_1 {
+    text-align: left;
+    padding-left: 5%;
+    margin: 0;
+
+}
+
+.logo_1 p {
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #c065309c;
+    font-size: 1.3em;
+    margin: auto;
+    padding: auto;
+
+
+}
+
+
+.nav_1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.nav_1 ul {
+    margin-right: auto;
+    list-style: none;
+    display: flex;
+    padding: auto;
+
+}
+
+.nav_1 li {
+    color: white;
+    padding-left: 15%;
+    font-size: 1.1em;
+    transition: 0.4s;
+    margin: 0;
+
+}
+
+.nav_1 li:hover {
+    color: orangered;
+
+
+}
+
+#home {
+    color: #e75d08;
+}
+
+#home:hover {
+    color: #e75d08;
+}
+
+
+
+
+.section_1 .hero {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    margin-left: 5%;
+
+
+}
+
+.me {
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    margin-left: 10%;
+
+}
+
+.pic_1 {
+    width: 30%;
+    margin-right: 5%;
+    margin-left: 2%;
+    padding-left: 1%;
+}
+
+.me p {
+    color: #ffffffdc;
+    font-size: 1.2em;
+    text-align: left;
+    padding: auto;
+    margin-top: 40%;
+}
+
+.me h1 {
+    margin: auto;
+    padding: auto;
+    margin-bottom: 1%;
+    color: #e75d08;
+    font-size: 4rem;
+    text-align: left;
+
+}
+
+.me span {
+
+    -webkit-text-stroke-width: 0.01em;
+    -webkit-text-stroke-color: #ff8800;
+    -webkit-text-fill-color: black;
+}
+
+.me h2 {
+    margin: auto;
+    padding: auto;
+    color: #ffffffa0;
+    font-size: 1.3rem;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 10;
+
+}
+
+.pic_1 img {
+    margin-top: 20%;
+    width: 30em;
+
+
+}
+
+
+
+.about1 {
+    display: flex;
+    margin: auto;
+    padding: auto;
+
+}
+
+/******************************************  ABout ME ****************************/
+
+.body_1 {
+    padding: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 5%;
+}
+
+.body_1 h1 {
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 2%;
+
+
+
+
+}
+
+.body_1 hr {
+    background-color: white;
+    width: 2em;
+    height: 0.1em;
+    margin-bottom: 3%;
+}
+
+.pic_2 {
+    margin-left: 12%;
+    background-color: #312c26;
+    border-left: 0.2em solid orange;
+    border-bottom: 0.2em solid orange;
+    height: 20em;
+
+}
+
+.btn_2 {
+    margin-top: 4em;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bolder;
+    background-color: #e75e0800;
+    border-radius: 24em;
+    width: 10em;
+    height: 4em;
+    transition: 0.5s;
+    border: 2px solid white;
+    margin: 0;
+
+}
+
+.btn_2:hover {
+    font-weight: bolder;
+    margin-top: 4em;
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    font-size: 1.3em;
+    border-radius: 24em;
+    width: 10em;
+    height: 4em;
+    transition: 0.5s;
+    margin: 0;
+}
+
+.body_1 img {
+    width: 20em;
+}
+
+
+.text_1 {
+    margin-left: 5%;
+    width: 50%;
+}
+
+.text_1 p {
+    margin: 0;
+    text-align: left;
+    color: white;
+    margin-bottom: 10%;
+    line-height: 1.4rem;
+
+}
+
+.text_1 table {
+    width: 100%;
+}
+
+.text_1 td {
+    color: white;
+    padding-bottom: 5%;
+    text-align: left;
+}
+
+
+
+/*=========================== Service =========================*/
+
+.section_2 {
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    background-color: #120f0d;
+
+}
+
+.serv h1 {
+    padding-top: 2%;
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 2%;
+
+}
+
+.serv hr {
+    background-color: white;
+    width: 20em;
+    height: 0.1em;
+    margin-bottom: 3%;
+}
+
+.serv_1 {
+    margin-bottom: 5%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+
+
+
+.card_1 {
+    border-radius: 1.5em 1.5em 0 0;
+
+    text-align: center;
+    background-color: #312c26;
+
+}
+
+.card_1:hover {
+    text-align: center;
+    background-color: #363636;
+
+}
+
+.card_1 i {
+    text-align: center;
+    color: white;
+    padding: auto;
+    margin: auto;
+}
+
+.card_1 h1 {
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+
+}
+
+.card_1 p {
+    text-align: center;
+    color: white;
+    font-size: 1em;
+
+}
+
+.serv_2 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+
+/* ============================ SKILLS ====================*/
+
+.pre_sec1 {
+    background-color: #120f0d;
+
+}
+
+.section_3 {
+    background-color: #120f0d;
+    width: 100%;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    display: flex;
+
+}
+
+.pre_sec1 h1 {
+    padding-top: 2%;
+    color: white;
+    font-size: 2.6em;
+    margin-bottom: 2%;
+
+}
+
+.pre_sec1 hr {
+    background-color: white;
+    width: 20em;
+    height: 0.1em;
+    margin-block: 0;
+
+}
+
+.skills_1 {
+    margin: auto;
+}
+
+.skills_1 h1 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+    transition: 400ms;
+}
+
+.skills_1 h1:hover {
+    color: #e75d08;
+
+}
+
+
+
+.skills_1 p {
+    color: white;
+    margin: 5%;
+    padding: auto;
+    text-align: center;
+
+}
+
+.skills_1 hr {
+    width: 50%;
+    margin-block: 10%;
+    
+}
+
+
+
+
+
+
+
+/* ============================Resume====================================*/
+
+.pre_sec2 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+.pre_sec2 h1 {
+    padding-top: 2%;
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 2%;
+
+}
+
+.pre_sec2 hr {
+    background-color: white;
+    width: 20em;
+    height: 0.1em;
+
+}
+
+.section_44 {
+    background-color: #120f0d;
+}
+
+.section_4 {
+
+    margin: auto;
+    padding: auto;
+    width: 100%;
+
+
+}
+
+.resume1 h1 {
+    color: #ffffff;
+    font-size: 1.5em;
+
+
+}
+
+.resume1 p {
+    color: white;
+}
+
+.resume1 h2 {
+    color: white;
+}
+
+.resume1 fieldset {
+    text-align: center;
+    justify-content: center;
+    margin-inline: 25%;
+    width: 50%;
+    margin-block: 0;
+    border-radius: 3em;
+}
+
+
+.resume2 h1 {
+    color: #ffffff;
+    font-size: 1.5em;
+
+
+}
+
+.resume1,
+.resume2 {
+    width: 50%;
+}
+
+.resume2 p {
+    color: white;
+}
+
+.resume2 h2 {
+    color: white;
+}
+
+.resume2 fieldset {
+    text-align: center;
+    justify-content: center;
+    margin-inline: 25%;
+    width: 50%;
+    margin-block: 0;
+    border-radius: 3em;
+}
+
+.all fieldset:hover {
+    background-color: #252525;
+    text-align: center;
+    justify-content: center;
+    margin-inline: 25%;
+    width: 50%;
+    margin-block: 0;
+    border-radius: 3em;
+    border-color: #e75d08;
+}
+
+.all {
+    display: flex;
+    padding-bottom: 5%;
+}
+
+/* fooooootteeeeeeeeeeeer*/
+footer {
+
+    width: 100%;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+
+}
+
+footer h1 {
+    padding-block: 2%;
+    color: white;
+    font-size: 2.5em;
+
+
+}
+
+footer hr {
+    background-color: white;
+    width: 20em;
+    height: 0.1em;
+}
+
+.foot {
+    display: flex;
+}
+
+.Add {
+    margin: auto;
+    padding: auto;
+}
+
+.Add a {
+    font-size: 1.5em;
+    color: white;
+    border-radius: 50%;
+    transition: 0.5s;
+
+}
+
+.Add i {
+    font-size: 1.5em;
+    color: white;
+    border: 0.2em solid #e75d08;
+    padding: 10%;
+    border-radius: 50%;
+    transition: 0.5s;
+
+}
+
+.Add i:hover {
+    font-size: 1.5em;
+    background-color: #e75d08;
+    color: rgb(255, 255, 255);
+    border: 0.2em solid #ffffff;
+    padding: 10%;
+    border-radius: 50%;
+
+}
+
+.Add li {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    color: white;
+    padding: 5%;
+    margin: 0;
+
+}
+
+.Add p {
+    color: white;
+}
+
+.comm {
+    margin: auto;
+    padding: auto;
+
+}
+
+.comm input {
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.591);
+    background-color: #00000000;
+    border: 0.1em solid #ffffff;
+    margin: 2%;
+}
+
+.comm input:focus {
+
+    color: white;
+    background-color: #4d474082;
+    border: 0.3em solid #e75d08;
+
+}
+
+.comm input:hover {
+
+    color: rgba(255, 255, 255, 0.591);
+
+    border: 0.1em solid #ff9900;
+
+}
+
+.inp1 {
+    width: 10em;
+    height: 1.2em;
+}
+
+.inp2 {
+    width: 22em;
+    height: 8em;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 1em;
+}
+
+/* Projectssss  ******************************/
+
+.portfo {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+.portfo h1 {
+    padding-top: 2%;
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 2%;
+
+}
+
+.portfo hr {
+    background-color: white;
+    width: 20em;
+    height: 0.1em;
+
+}
+
+
+.portf1 h1 {
+    color: #ffffff;
+    font-size: 1.5em;
+
+
+}
+
+.portf1  p {
+    color: white;
+}
+.portf1  a {
+    color: white;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.portf1  p:hover {
+    color: #e75d08
+}
+
+
+.portf1  fieldset {
+    text-align: center;
+    justify-content: center;
+    margin-inline: 25%;
+    width: 50%;
+    margin-block: 0;
+    border-radius: 3em;
+    transition: 500ms;
+   
+}
+.portf1 img{
+    width: 13rem;
+    border-radius: 3em;
+    
+}
+
+
+
+.portf1 
+ {
+    width: 50%;
+}
+
+
+
+.portf1  fieldset:hover {
+    background-color: #1a1a1a;
+    text-align: center;
+    justify-content: center;
+    margin-inline: 25%;
+    width: 50%;
+    margin-block: 0;
+    border-radius: 3em;
+    border-color: #e75d08;
+}
+
+.protf {
+    display: flex;
+    padding-bottom: 5%;
+}
